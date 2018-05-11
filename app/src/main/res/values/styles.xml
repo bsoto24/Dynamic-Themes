@@ -1,0 +1,65 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">?themePrimaryColor</item>
+        <item name="colorPrimaryDark">?themePrimaryColorDark</item>
+        <item name="colorAccent">?themeAccentColor</item>
+    </style>
+
+    <style name="AppTheme.DarkTheme">
+        <item name="themePrimaryColor">@color/gray</item>
+        <item name="themePrimaryColorDark">@color/grayDark</item>
+        <item name="themeAccentColor">@color/lightBlue</item>
+        <item name="themeAccentColorDark">@color/lightBlueDark</item>
+        <item name="themeBackgroundColor">@color/grayDark</item>
+        <item name="themeTextColor">@color/lightBlueLight</item>
+        <item name="themeTextColorOnPrimary">@color/lightBlueLight</item>
+        <item name="themeTextColorOnAccent">@color/grayDark</item>
+        <item name="themeItemColorSelected">@color/lightBlueLight</item>
+        <item name="themeItemColorNotSelected">@color/grayLight</item>
+        <item name="themeTextSizeNormal">@dimen/themeTextSizeNormal</item>
+    </style>
+
+    <style name="AppTheme.LightTheme">
+        <item name="themePrimaryColor">@color/lightBlue</item>
+        <item name="themePrimaryColorDark">@color/lightBlueDark</item>
+        <item name="themeAccentColor">@color/gray</item>
+        <item name="themeAccentColorDark">@color/grayDark</item>
+        <item name="themeBackgroundColor">@color/lightBlueLight</item>
+        <item name="themeTextColor">@color/grayDark</item>
+        <item name="themeTextColorOnPrimary">@color/grayDark</item>
+        <item name="themeTextColorOnAccent">@color/lightBlueLight</item>
+        <item name="themeItemColorSelected">@color/grayDark</item>
+        <item name="themeItemColorNotSelected">@color/grayLight</item>
+        <item name="themeTextSizeNormal">@dimen/themeTextSizeNormal</item>
+    </style>
+
+    <style name="AppTheme.RaisedButtonAccent">
+        <item name="android:textSize">?themeTextSizeNormal</item>
+        <item name="android:textColor">?themeTextColorOnAccent</item>
+        <item name="colorButtonNormal">?themeAccentColor</item>
+        <item name="colorControlHighlight">?themeAccentColor</item>
+    </style>
+
+    <style name="AppTheme.TextViewNormal">
+        <item name="android:textSize">?themeTextSizeNormal</item>
+        <item name="android:textColor">?themeTextColorOnPrimary</item>
+    </style>
+
+    <style name="AppTheme.BottomNavigationView">
+        <item name="android:background">?themePrimaryColor</item>
+        <item name="itemIconTint">@drawable/navigation_bar_item_bg</item>
+        <item name="itemTextColor">@drawable/navigation_bar_item_bg</item>
+    </style>
+
+    <style name="AppTheme.Toolbar">
+        <item name="android:background">?themePrimaryColor</item>
+        <item name="android:textColorPrimary">?themeTextColorOnPrimary</item>
+        <item name="android:textColorSecondary">?themeTextColorOnAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

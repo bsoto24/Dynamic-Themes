@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dinamic Themes</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="night">night</string>
+    <string name="day">day</string>
+    <string name="description">Select any of the 2 options to change the appearance of the application</string>
+    <string name="the_theme">The </string>
+    <string name="is_active">theme is active</string>
+</resources>
