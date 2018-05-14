@@ -1,4 +1,4 @@
-# Dinamic-Themes
+# Dynamic-Themes
 
 > Ok my english is terrible, so i'll write this demo in spanish, but don't worry, all the code is en english.
 
